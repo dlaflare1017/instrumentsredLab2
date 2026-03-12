@@ -1,18 +1,15 @@
 using System;
 using System.Collections.Generic;
 
-//
-// Общий компонент файловой системы (и файл, и папка)
-//
+// Общий компонент файловой системы файл и папка
 interface IFileSystemComponent
 {
     string Name { get; }
-    long GetSize(); // размер в байтах (или условных единицах)
+    long GetSize();
 }
 
-//
+
 // Лист — Файл
-//
 class File : IFileSystemComponent
 {
     public string Name { get; }
@@ -30,14 +27,13 @@ class File : IFileSystemComponent
     }
 }
 
-//
+
 // Компоновщик — Папка
-//
 class Directory : IFileSystemComponent
 {
     public string Name { get; }
     
-    // Папка может содержать и файлы, и другие папки
+    // Папка может содержать и файлы и другие папки
     private readonly List<IFileSystemComponent> _children = new List<IFileSystemComponent>();
 
     public Directory(string name)
@@ -66,9 +62,7 @@ class Directory : IFileSystemComponent
     }
 }
 
-//
 // Пример использования
-//
 class Program
 {
     static void Main(string[] args)
@@ -83,13 +77,12 @@ class Program
         var images = new Directory("images");
         var docs = new Directory("docs");
 
-        // Строим дерево
-        root.Add(file1);      // file1 лежит в корне
-        root.Add(images);     // папка images в корне
-        root.Add(docs);       // папка docs в корне
+        root.Add(file1);     // file1 лежит в корне
+        root.Add(images);    // папка images в корне
+        root.Add(docs);      // папка docs в корне
 
-        images.Add(file2);    // картинка в images
-        docs.Add(file3);      // документ в docs
+        images.Add(file2);   // картинка в images
+        docs.Add(file3);     // документ в docs
 
         Console.WriteLine($"Размер file1: {file1.GetSize()}");
         Console.WriteLine($"Размер images: {images.GetSize()}");

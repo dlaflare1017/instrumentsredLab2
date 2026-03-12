@@ -1,0 +1,15 @@
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/bin/Debug/net8.0/FileSystemCompositeApp
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/bin/Debug/net8.0/FileSystemCompositeApp.deps.json
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/bin/Debug/net8.0/FileSystemCompositeApp.runtimeconfig.json
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/bin/Debug/net8.0/FileSystemCompositeApp.dll
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/bin/Debug/net8.0/FileSystemCompositeApp.pdb
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.AssemblyInfoInputs.cache
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.AssemblyInfo.cs
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.csproj.CoreCompileInputs.cache
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.sourcelink.json
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.dll
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/refint/FileSystemCompositeApp.dll
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.pdb
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/FileSystemCompositeApp.genruntimeconfig.cache
+/Users/onetime/Desktop/ALL LABS KBK/instrumentsredLABS/instrumentsredLab2/obj/Debug/net8.0/ref/FileSystemCompositeApp.dll
